@@ -21,9 +21,10 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'hamlit'
-gem 'simple_form'
 gem 'annotate'
+gem 'hamlit'
+gem 'rails-i18n'
+gem 'simple_form'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -42,6 +43,7 @@ group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'hamlit-rails'
   gem 'rubocop', '~> 0.89.1', require: false
+  gem 'i18n-tasks', '~> 0.9.31'
   gem 'web-console', '>= 3.3.0'
 end
 
