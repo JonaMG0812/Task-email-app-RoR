@@ -16,7 +16,6 @@ es:
       name: Nombre
     index:
       add_category: Agregar nueva categoría
-      confirm: Estas seguro que deseas eliminar este elemento?
       description: Descripción
       name: Nombre
       page_title: Categorías
@@ -27,6 +26,31 @@ es:
       name: 'Nombre:'
   common:
     back: Regresar
+    confirm: Estas seguro que deseas eliminar este elemento?
     destroy: Eliminar
     edit: Editar
     show: Ver
+  tasks:
+    edit:
+      page_title: Editar Tarea
+    form:
+      associated_category: Categoría asociada
+      description: Descripción
+      due_date: Fecha de vencimiento
+      name: Nombre
+      new_task: Crear Tarea
+    index:
+      associated_category: Categoría asociada
+      description: Descripción
+      due_date: Fecha de vencimiento
+      name: Nombre
+      new_task: Crear Tarea
+      page_title: Tareas
+    new:
+      page_title: Nueva Tarea
+    show:
+      associated_category: 'Categoría asociada:'
+      associated_category_description: 'Descripción de categoría asociada:'
+      description: 'Descripción:'
+      due_date: 'Fecha de vencimiento:'
+      name: 'Nombre:'
