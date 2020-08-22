@@ -1,0 +1,32 @@
+---
+es:
+  activerecord:
+    models:
+      category:
+        one: Categoría
+        others: Categorías
+      task:
+        one: Tarea
+        others: Tareas
+  categories:
+    edit:
+      page_title: Editar Categoría
+    form:
+      description: Descripción
+      name: Nombre
+    index:
+      add_category: Agregar nueva categoría
+      confirm: Estas seguro que deseas eliminar este elemento?
+      description: Descripción
+      name: Nombre
+      page_title: Categorías
+    new:
+      new_category: Nueva Categoría
+    show:
+      description: 'Descripción:'
+      name: 'Nombre:'
+  common:
+    back: Regresar
+    destroy: Eliminar
+    edit: Editar
+    show: Ver
