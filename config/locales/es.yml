@@ -30,6 +30,9 @@ es:
     destroy: Eliminar
     edit: Editar
     show: Ver
+  task:
+    errors:
+      invalid_due_date: Fecha de vencimiento inválida
   tasks:
     edit:
       page_title: Editar Tarea
