@@ -22,6 +22,9 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'annotate'
+gem 'cancancan'
+gem 'cocoon'
+gem 'devise'
 gem 'hamlit'
 gem 'rails-i18n'
 gem 'simple_form'
@@ -42,8 +45,8 @@ end
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'hamlit-rails'
-  gem 'rubocop', '~> 0.89.1', require: false
   gem 'i18n-tasks', '~> 0.9.31'
+  gem 'rubocop', '~> 0.89.1', require: false
   gem 'web-console', '>= 3.3.0'
 end
 
