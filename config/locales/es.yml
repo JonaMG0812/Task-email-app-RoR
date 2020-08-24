@@ -29,6 +29,7 @@ es:
     confirm: Estas seguro que deseas eliminar este elemento?
     destroy: Eliminar
     edit: Editar
+    log_out: Cerrar Sesión
     show: Ver
   task:
     errors:
