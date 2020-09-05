@@ -46,6 +46,7 @@ group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'hamlit-rails'
   gem 'i18n-tasks', '~> 0.9.31'
+  gem 'letter_opener'
   gem 'rubocop', '~> 0.89.1', require: false
   gem 'web-console', '>= 3.3.0'
 end
