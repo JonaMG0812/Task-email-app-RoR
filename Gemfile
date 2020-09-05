@@ -28,6 +28,7 @@ gem 'devise'
 gem 'hamlit'
 gem 'rails-i18n'
 gem 'simple_form'
+gem 'turbolinks_render'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
