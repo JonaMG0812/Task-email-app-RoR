@@ -21,6 +21,8 @@ class Task < ApplicationRecord
   validates  :name, uniqueness: { case_sensitive: false }
   validate   :due_date_validation
 
+  after_create :send_email
+
   accepts_nested_attributes_for :participating_users, allow_destroy: true
 
   def due_date_validation
@@ -28,5 +30,11 @@ class Task < ApplicationRecord
     return if due_date > Date.today
 
     errors.add :due_date, I18n.t('task.errors.invalid_due_date')
+  end
+
+  def send_email
+    (participants + [owner]).each do |user|
+      ParticipantMailer.with(user: user, task: self).new_task_email.deliver!
+    end
   end
 end
