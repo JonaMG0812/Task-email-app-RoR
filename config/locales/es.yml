@@ -31,6 +31,8 @@ es:
     edit: Editar
     log_out: Cerrar Sesión
     show: Ver
+  email:
+    subject: Tienes una nueva tarea asignada :)
   task:
     errors:
       invalid_due_date: Fecha de vencimiento inválida

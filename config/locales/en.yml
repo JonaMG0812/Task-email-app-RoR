@@ -31,6 +31,8 @@ en:
     edit: Edit
     log_out: Log out
     show: Show
+  email:
+    subject: You have a new task assigned :)
   task:
     errors:
       invalid_due_date: Invalid due date
