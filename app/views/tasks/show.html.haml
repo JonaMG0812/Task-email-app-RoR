@@ -16,6 +16,14 @@
   %b= t('.associated_category_description')
   = @task.category.description
 
+.notes-container
+  .note-input
+    = simple_form_for Note.new, url: task_notes_path(task_id: @task.id) do |f|
+      = f.input :body, label: false, as: :string, placeholder: t('.notes_placeholder'), input_html: { autocomplete: :off }
+  .notes
+    - @task.notes.reverse_each do |note|
+      = render 'tasks/notes/note', note: note
+
 = link_to t('common.edit'), edit_task_path(@task)
 \|
 = link_to t('common.back'), tasks_path
