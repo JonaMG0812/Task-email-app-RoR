@@ -60,3 +60,4 @@ es:
       description: 'Descripción:'
       due_date: 'Fecha de vencimiento:'
       name: 'Nombre:'
+      notes_placeholder: Agrega una nota...
